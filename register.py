@@ -77,8 +77,7 @@ class Client:
             'Sec-Fetch-User': '?1',
             'Priority': 'u=0, i',
             # Requests doesn't support trailers
-            # 'Te': 'trailers',
-            # 'Cookie': 'user_session1=ZTNhNDdmY2ItYjMzZC00NjE2LTgxMWYtZDg1NDBhNTk0MDFh; XSRF-TOKEN=e9639a2f-5aca-4fd4-811f-f0109089e05a; _ga_H1X8917JB8=GS1.1.1721870334.1.0.1721870346.0.0.0; _ga=GA1.1.1061075972.1721870335; P=a1f4123d-e34f-4881-a2af-dacc2467c371',
+            # 'Te': 'trailers'
         }
         data = {
             '_csrf': _csrf,
@@ -114,8 +113,6 @@ class Client:
             'Sec-Fetch-User': '?1',
             'Priority': 'u=0, i',
             # Requests doesn't support trailers
-            # 'Te': 'trailers',
-            # 'Cookie': 'user_session1=ZTNhNDdmY2ItYjMzZC00NjE2LTgxMWYtZDg1NDBhNTk0MDFh; XSRF-TOKEN=e9639a2f-5aca-4fd4-811f-f0109089e05a; _ga_H1X8917JB8=GS1.1.1721870334.1.0.1721870346.0.0.0; _ga=GA1.1.1061075972.1721870335; P=a1f4123d-e34f-4881-a2af-dacc2467c371',
         }
         data = {
             '_csrf': _csrf,
@@ -153,8 +150,7 @@ class Client:
             'Referer': 'https://auth.user.ameba.jp/signup/email/verification',
             # 'Accept-Encoding': 'gzip, deflate, br',
             'Accept-Language': 'ja,en-US;q=0.9,en;q=0.8',
-            'Priority': 'u=0, i',
-            # 'Cookie': '_ga_FNC8BLTBPL=GS1.1.1721412006.1.0.1721412008.0.0.0; XSRF-TOKEN=9f75348b-df0b-4972-9fa7-82baad72942f; P=a15ac64a-320a-4567-ad77-3ec279728738; __utma=257183131.465698129.1721412007.1721412393.1721412393.1; __utmc=257183131; __utmz=257183131.1721412393.1.1.utmcsr=ameblo.jp|utmccn=(referral)|utmcmd=referral|utmcct=/; __gads=ID=5ec4ed5e9a56847e:T=1721412040:RT=1721490967:S=ALNI_MZ3l2bq8oPSkyeder0eBnFjoDYHkg; __gpi=UID=00000e9c1fa17de0:T=1721412040:RT=1721490967:S=ALNI_MbxQAuocv-PQhhsLrHub244PuWAlw; __eoi=ID=9fb64807825ceb41:T=1721412040:RT=1721490967:S=AA-AfjYHc9PXu3h5J411XxGEEsJQ; _ga_WVMM60SGEG=GS1.1.1721490964.2.1.1721490979.0.0.0; _clck=cpv33v%7C2%7Cfnm%7C0%7C1661; FCNEC=%5B%5B%22AKsRol-MX6W-J3JyiUPjMDHwk-vULUQM2xcsLnN-S8udvdJsZfDoSnTxMuyJomzV5gCGc9XBJIfhGbcScIZAu57l2Burq1rHjQ2pX75CA40HPu8sxkI_84r0HXI4F4mHezQvPKPbqisb0QkS8ixZYma2zH7XfdrWpA%3D%3D%22%5D%5D; _ga_7BCS07G3H9=GS1.1.1721494529.2.1.1721495993.0.0.0; _ga_3028DJK3ZG=GS1.1.1721494529.2.1.1721495993.0.0.0; _gid=GA1.2.902801996.1722028736; user_session1=YjhkNGQwY2ItOGM0Ni00YWFkLTkwZmQtYjdiNjI1MmY1Yzc4; _ga=GA1.1.465698129.1721412007; _ga_H1X8917JB8=GS1.1.1722028755.4.1.1722029183.0.0.0',
+            'Priority': 'u=0, i'
         }
         data = {
             '_csrf': _csrf,
@@ -180,8 +176,7 @@ class Client:
             'Referer': 'https://auth.user.ameba.jp/signup/email/ameba-id',
             # 'Accept-Encoding': 'gzip, deflate, br',
             'Accept-Language': 'ja,en-US;q=0.9,en;q=0.8',
-            'Priority': 'u=1, i',
-            # 'Cookie': '_ga_FNC8BLTBPL=GS1.1.1721412006.1.0.1721412008.0.0.0; XSRF-TOKEN=9f75348b-df0b-4972-9fa7-82baad72942f; P=a15ac64a-320a-4567-ad77-3ec279728738; __utma=257183131.465698129.1721412007.1721412393.1721412393.1; __utmc=257183131; __utmz=257183131.1721412393.1.1.utmcsr=ameblo.jp|utmccn=(referral)|utmcmd=referral|utmcct=/; __gads=ID=5ec4ed5e9a56847e:T=1721412040:RT=1721490967:S=ALNI_MZ3l2bq8oPSkyeder0eBnFjoDYHkg; __gpi=UID=00000e9c1fa17de0:T=1721412040:RT=1721490967:S=ALNI_MbxQAuocv-PQhhsLrHub244PuWAlw; __eoi=ID=9fb64807825ceb41:T=1721412040:RT=1721490967:S=AA-AfjYHc9PXu3h5J411XxGEEsJQ; _ga_WVMM60SGEG=GS1.1.1721490964.2.1.1721490979.0.0.0; _clck=cpv33v%7C2%7Cfnm%7C0%7C1661; FCNEC=%5B%5B%22AKsRol-MX6W-J3JyiUPjMDHwk-vULUQM2xcsLnN-S8udvdJsZfDoSnTxMuyJomzV5gCGc9XBJIfhGbcScIZAu57l2Burq1rHjQ2pX75CA40HPu8sxkI_84r0HXI4F4mHezQvPKPbqisb0QkS8ixZYma2zH7XfdrWpA%3D%3D%22%5D%5D; _ga_7BCS07G3H9=GS1.1.1721494529.2.1.1721495993.0.0.0; _ga_3028DJK3ZG=GS1.1.1721494529.2.1.1721495993.0.0.0; _gid=GA1.2.902801996.1722028736; user_session1=YjhkNGQwY2ItOGM0Ni00YWFkLTkwZmQtYjdiNjI1MmY1Yzc4; _ga=GA1.1.465698129.1721412007; _ga_H1X8917JB8=GS1.1.1722028755.4.1.1722029689.0.0.0',
+            'Priority': 'u=1, i'
         }
         async with session.get(f'https://auth.user.ameba.jp/api/available-ameba-id/{ameba_id}',headers=headers,proxy=self.proxy) as response:
             print(f"<{str(response.status)} get_ameba_id>")
