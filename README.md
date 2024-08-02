@@ -15,3 +15,16 @@ if __name__ == "__main__":
 ```
 
 # config.json
+```Python:qiita.json
+{
+    "file": "accounts.txt",
+    "counts": 50,
+    "aio_num": 30,
+    "bdayYear": 2000,
+    "bdayMonth": 4,
+    "bdayDay": 1,
+    "gender": "male",
+    "password": "@password321",
+    "api_key": "CAP-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "proxy": "http://USERNAME:PASSWORD@XXXXXXproxy.com:30000"
+}
