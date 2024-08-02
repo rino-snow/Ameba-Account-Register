@@ -29,5 +29,6 @@ if __name__ == "__main__":
     "proxy": "http://USERNAME:PASSWORD@XXXXXXproxy.com:30000"
 }
 ```
-countsには合計の試行回数を、aio_numには非同期処理でgatherする最大の並列数を数値で入力してください。\n
+countsには合計の試行回数を、aio_numには非同期処理でgatherする最大の並列数を数値で入力してください。
+
 fileで指定したパスにアカウントが出力されます。
