@@ -8,7 +8,7 @@ from register import Client
 
 async def main():
     async with Client() as client:
-    client.register()
+        client.register()
 
 if __name__ == "__main__":
     asyncio.run(main())
