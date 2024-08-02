@@ -7,8 +7,9 @@ import asyncio
 from register import Client
 
 async def main():
-  async with Client() as client:
+    async with Client() as client:
     client.register()
+
 if __name__ == "__main__":
-  asyncio.run(main())
+    asyncio.run(main())
 ```
