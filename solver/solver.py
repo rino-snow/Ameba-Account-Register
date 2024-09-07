@@ -2,9 +2,10 @@ import asyncio
 import aiohttp
 
 async def solver(session: aiohttp.ClientSession,
-                 payload: dict,
+                 api_key: str,
+                 task: dict,
                  proxy: str = '') -> str: 
-    api_key = payload["clientKey"]
+    payload = {"clientKey": api_key, "task": task}
     async with session.post("https://api.capsolver.com/createTask", json=payload, proxy=proxy) as res:
         resp = await res.json()
     task_id = resp.get("taskId")
